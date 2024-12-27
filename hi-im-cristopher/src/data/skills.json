@@ -32,6 +32,10 @@
         "imageSrc": "skills/sqlserver.jpg"
     },
     {
+        "title": "Git",
+        "imageSrc": "skills/git.png"
+    },
+    {
       "title": "Figma",
       "imageSrc": "skills/figma.png"
     }
