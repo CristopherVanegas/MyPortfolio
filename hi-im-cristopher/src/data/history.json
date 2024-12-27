@@ -1,0 +1,16 @@
+[
+    {
+      "role": "Ingeniero de Software",
+      "organisation": "Holcim",
+      "startDate": "Sept, 2023",
+      "endDate": "Present",
+      "experiences": 
+      [
+        "Migración de reportes con DevExpress para WF", 
+        "Mejora UX/UI", ".NET C# con Microsoft SQL Server", 
+        "Metodología Kanvan"
+      ],
+      "imageSrc": "history/holcim.jpg"
+    }
+  ]
+  
