@@ -1,0 +1,123 @@
+@import '../../vars.css';
+
+.container {
+    color: var(--color-text);
+    margin-top: 120px;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding: 58px;
+    gap: 10px;
+}
+
+.text h2 {
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.text p {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    gap: 26px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.link a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.contact {
+    display: flex;
+}
+
+.heroImg {
+    width: 30%;
+    z-index: 1;
+    border-radius: 50%;
+    /* padding: 55px; */
+    margin-bottom: 25px;
+    /* margin-right: 25px; */
+    margin-left: 25px;
+    
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    display: none;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 10px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .container {
+        flex-direction: column;
+        gap: 23px;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        -webkit-text-size-adjust: auto;
+    }
+    .contact {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .heroImg {
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 880px) {
+    .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 23px;
+    }
+    .text {
+        margin-bottom: 60px;
+    }
+    .text h2, .text p, .link a{
+        font-size-adjust: initial;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+    }
+    .heroImg {
+        display: block;
+        margin: 0px;
+    }
+}

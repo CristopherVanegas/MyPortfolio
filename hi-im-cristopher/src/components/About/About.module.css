@@ -66,11 +66,10 @@
     font-size: 25px;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1150px) {
     .container {
-        background-color: transparent;
-        padding-left: 0;
-        padding-right: 0;
+        background-color: rgba(12, 12, 12, 0.6);
+        padding: 73px;
     }
 
     .content {

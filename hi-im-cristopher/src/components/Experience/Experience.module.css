@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 14px;
+    margin-top: 37px;
 }
 
 .skills {
@@ -76,6 +76,7 @@
 
 .historyItem img {
     width: 100px;
+    border-radius: 25%;
 }
 
 .historyItemDetails {
@@ -100,7 +101,7 @@
     margin-left: 17px;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1150px) {
     .content {
         flex-direction: column;
         align-items: center;

@@ -24,7 +24,7 @@
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%,
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 92%,
     rgba(255, 255, 255, 0) 120%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -53,6 +53,8 @@
     border-radius: 50%;
     /* padding: 55px; */
     margin-bottom: 25px;
+    /* margin-right: 25px; */
+    margin-left: 25px;
     
     animation-name: floating;
     animation-duration: 3s;

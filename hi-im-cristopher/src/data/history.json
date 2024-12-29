@@ -2,7 +2,7 @@
     {
       "role": "Ingeniero de Software",
       "organisation": "Holcim",
-      "startDate": "Sept, 2023",
+      "startDate": "Septiembre, 2024",
       "endDate": "Actualidad",
       "experiences": 
       [
@@ -11,6 +11,17 @@
         "Metodología Kanvan"
       ],
       "imageSrc": "history/holcim.jpg"
+    },
+    {
+      "role": "Gestor de contenido WordPress",
+      "organisation": "Fundación Más Que Vencedores",
+      "startDate": "Enero, 2024",
+      "endDate": "Abril, 2024",
+      "experiences": 
+      [
+        "Desarrollo de página en WordPress administrado con Hostinger."
+      ],
+      "imageSrc": "history/fundacionmqvencedores.jpg"
     }
   ]
   
