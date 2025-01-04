@@ -1,22 +1,30 @@
 [
     {
-      "title": "Project A",
+      "title": "API C#",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "API de consultas a base de datos de ventas.",
+      "skills": [".NET Core C#", "Microsoft SQL Server", "Postman"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Interfaz con Angular",
+      "imageSrc": "projects/project.png",
+      "description": "Creación de la interfaz con Angular para consultar registros.",
+      "skills": ["Angular", "NodeJS", "TypeScript"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Aplicación de Facturas",
+      "imageSrc": "projects/project.png",
+      "description": "Aplicación sencilla de registro de facturas en Android Studio con Kotlin.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
+      "title": "Sistema de Ventas con JavaFX",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],

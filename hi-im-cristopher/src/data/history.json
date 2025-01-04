@@ -22,6 +22,28 @@
         "Desarrollo de página en WordPress administrado con Hostinger."
       ],
       "imageSrc": "history/fundacionmqvencedores.jpg"
+    },
+    {
+      "role": "Desarrollador de Software",
+      "organisation": "Autónomo",
+      "startDate": "Enero, 2024",
+      "endDate": "Febrero, 2024",
+      "experiences": 
+      [
+        "Sistema de Ventas con JavaFX y transacción de archivos JSON."
+      ],
+      "imageSrc": "history/javafx.png"
+    },
+    {
+      "role": "Profesor de Robótica",
+      "organisation": "Unidad Educativa Salesiana Cristobal Colón",
+      "startDate": "2019",
+      "endDate": "2021",
+      "experiences": 
+      [
+        "Capacitación de Robótica con Arduino y programación en C."
+      ],
+      "imageSrc": "history/arduino.webp"
     }
   ]
   
