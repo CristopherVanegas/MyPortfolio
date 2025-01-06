@@ -24,16 +24,16 @@
       "imageSrc": "skills/node.png"
     },
     {
+        "title": "Git",
+        "imageSrc": "skills/git.png"
+    },
+    {
       "title": ".NET Core",
       "imageSrc": "skills/netcore.png"
     },
     {
         "title": "SQL Server",
         "imageSrc": "skills/sqlserver.jpg"
-    },
-    {
-        "title": "Git",
-        "imageSrc": "skills/git.png"
     },
     {
       "title": "Figma",
