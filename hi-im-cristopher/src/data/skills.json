@@ -28,6 +28,10 @@
         "imageSrc": "skills/git.png"
     },
     {
+        "title": "Python",
+        "imageSrc": "skills/python.png"
+    },
+    {
       "title": ".NET Core",
       "imageSrc": "skills/netcore.png"
     },
