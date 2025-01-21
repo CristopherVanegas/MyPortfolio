@@ -30,5 +30,13 @@
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
+    },
+    {
+      "title": "Página Web Fundación Más Que Vencedores",
+      "imageSrc": "projects/fundacionmqvencedores.png",
+      "description": "Página web para una fundación hecha en Wordpress y gestionado por Hostinger.",
+      "skills": ["Wordpress", "Hostinger"],
+      "demo": "https://fundacionmvencedores.org/?fbclid=IwY2xjawH8lCRleHRuA2FlbQIxMAABHcJGogbNVkFRvToKfHQanENSmbVEb7yYsK3MrShYmfFmloyE3DaKA-HdXQ_aem_VCV6_rza2jVA0eBv4RhPfA",
+      "source": "https://fundacionmvencedores.org/?fbclid=IwY2xjawH8lCRleHRuA2FlbQIxMAABHcJGogbNVkFRvToKfHQanENSmbVEb7yYsK3MrShYmfFmloyE3DaKA-HdXQ_aem_VCV6_rza2jVA0eBv4RhPfA"
     }
 ]
