@@ -38,5 +38,13 @@
       "skills": ["Wordpress", "Hostinger"],
       "demo": "https://fundacionmvencedores.org/?fbclid=IwY2xjawH8lCRleHRuA2FlbQIxMAABHcJGogbNVkFRvToKfHQanENSmbVEb7yYsK3MrShYmfFmloyE3DaKA-HdXQ_aem_VCV6_rza2jVA0eBv4RhPfA",
       "source": "https://fundacionmvencedores.org/?fbclid=IwY2xjawH8lCRleHRuA2FlbQIxMAABHcJGogbNVkFRvToKfHQanENSmbVEb7yYsK3MrShYmfFmloyE3DaKA-HdXQ_aem_VCV6_rza2jVA0eBv4RhPfA"
+    },
+    {
+      "title": "Valery Truck v1.0",
+      "imageSrc": "projects/valerytruck.jpeg",
+      "description": "Proyecto de robótica, utiliza un Arduino programado en C y módulos bluetooth para comunicarse con un celular y controlarlo remotamente. Hay dos versiones, uno de carreras y uno para simular un carro de construcción.",
+      "skills": ["Arduino", "C/C++", "Electrónica", "Diseño"],
+      "demo": "https://fundacionmvencedores.org/?fbclid=IwY2xjawH8lCRleHRuA2FlbQIxMAABHcJGogbNVkFRvToKfHQanENSmbVEb7yYsK3MrShYmfFmloyE3DaKA-HdXQ_aem_VCV6_rza2jVA0eBv4RhPfA",
+      "source": "https://fundacionmvencedores.org/?fbclid=IwY2xjawH8lCRleHRuA2FlbQIxMAABHcJGogbNVkFRvToKfHQanENSmbVEb7yYsK3MrShYmfFmloyE3DaKA-HdXQ_aem_VCV6_rza2jVA0eBv4RhPfA"
     }
 ]
