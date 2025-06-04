@@ -1,47 +1,50 @@
 [
-    {
-      "title": "HTML",
-      "imageSrc": "skills/html.png"
-    },
-    {
-      "title": "CSS",
-      "imageSrc": "skills/css.png"
-    },
-    {
-        "title": "TypeScript",
-        "imageSrc": "skills/typescript.png"
-    },
-    {
-      "title": "React",
-      "imageSrc": "skills/react.png"
-    },
-    {
-        "title": "Angular",
-        "imageSrc": "skills/angular.png"
-    },
-    {
-      "title": "Node",
-      "imageSrc": "skills/node.png"
-    },
-    {
-        "title": "Git",
-        "imageSrc": "skills/git.png"
-    },
-    {
-        "title": "Python",
-        "imageSrc": "skills/python.png"
-    },
-    {
-      "title": ".NET Core",
-      "imageSrc": "skills/netcore.png"
-    },
-    {
-        "title": "SQL Server",
-        "imageSrc": "skills/sqlserver.jpg"
-    },
-    {
-      "title": "Figma",
-      "imageSrc": "skills/figma.png"
-    }
-  ]
-  
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Angular",
+    "imageSrc": "skills/angular.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": ".NET Core",
+    "imageSrc": "skills/netcore.png"
+  },
+  {
+    "title": "SQL Server",
+    "imageSrc": "skills/sqlserver.jpg"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Odoo",
+    "imageSrc": "skills/odoo.png"
+  }
+]

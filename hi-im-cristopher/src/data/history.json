@@ -1,49 +1,81 @@
 [
-    {
-      "role": "Ingeniero de Software",
-      "organisation": "Holcim",
-      "startDate": "Septiembre, 2024",
-      "endDate": "Actualidad",
-      "experiences": 
-      [
-        "Migración de reportes con DevExpress para WF", 
-        "Mejora UX/UI", ".NET C# con Microsoft SQL Server", 
-        "Metodología Kanvan"
-      ],
-      "imageSrc": "history/holcim.jpg"
-    },
-    {
-      "role": "Gestor de contenido WordPress",
-      "organisation": "Fundación Más Que Vencedores",
-      "startDate": "Enero, 2024",
-      "endDate": "Abril, 2024",
-      "experiences": 
-      [
-        "Desarrollo de página en WordPress administrado con Hostinger."
-      ],
-      "imageSrc": "history/fundacionmqvencedores.jpg"
-    },
-    {
-      "role": "Desarrollador de Software",
-      "organisation": "Autónomo",
-      "startDate": "Enero, 2024",
-      "endDate": "Febrero, 2024",
-      "experiences": 
-      [
-        "Sistema de Ventas con JavaFX y transacción de archivos JSON."
-      ],
-      "imageSrc": "history/javafx.png"
-    },
-    {
-      "role": "Profesor de Robótica",
-      "organisation": "Unidad Educativa Salesiana Cristobal Colón",
-      "startDate": "2019",
-      "endDate": "2021",
-      "experiences": 
-      [
-        "Capacitación de Robótica con Arduino y programación en C."
-      ],
-      "imageSrc": "history/arduino.webp"
-    }
-  ]
-  
+  {
+    "role": "Developer Junior",
+    "organisation": "Trescloud",
+    "startDate": "Abril, 2025",
+    "endDate": "Actualidad",
+    "experiences": [
+      "Desarrollo de software y manejo del software Odoo ERP & CRM.",
+      "Manejo de la lengua inglesa para capacitaciones y cursos internos."
+    ],
+    "imageSrc": "history/trescloud.jpg"
+  },
+  {
+    "role": "Ingeniero de Software",
+    "organisation": "Holcim",
+    "startDate": "Septiembre, 2024",
+    "endDate": "Abril, 2025",
+    "experiences": [
+      "Migración de reportes con DevExpress para WF",
+      "Mejora UX/UI",
+      "Manejo de SQL Server y programación en .NET C#",
+      "Metodología Kanvan.",
+      "Uso de JIRA para gestionar tareas y flujos de trabajo.",
+      "Auditoría y manejo de logs en .NET para mejorar la depuración de errores.",
+      "Refactorización de código en .NET C# para mejorar rendimiento y mantenibilidad.",
+      "Automatización de cálculos y distribución de costos en base a reglas contables específicas.",
+      "Validaciones y controles para evitar errores en la asignación de costos.",
+      "Pruebas y debugging intensivo para asegurar la precisión de los montos redistribuidos."
+    ],
+    "imageSrc": "history/holcim.jpg"
+  },
+  {
+    "role": "Gestor de contenido WordPress",
+    "organisation": "Fundación Más Que Vencedores",
+    "startDate": "Enero, 2024",
+    "endDate": "Abril, 2024",
+    "experiences": [
+      "Instalar WordPress desde el panel de Hostinger.",
+      "Configurar el dominio y SSL para la seguridad del sitio.",
+      "Realizar un análisis de los requerimientos del cliente o proyecto.",
+      "Seleccionar y justificar la elección del tema y plugins a utilizar.",
+      "Monitorear el tiempo de actividad y el rendimiento del servidor en Hostinger.",
+      "Configurar menús, widgets y barras laterales."
+    ],
+    "imageSrc": "history/fundacionmqvencedores.jpg"
+  },
+  {
+    "role": "Desarrollador de Software",
+    "organisation": "Autónomo",
+    "startDate": "Enero, 2024",
+    "endDate": "Febrero, 2024",
+    "experiences": [
+      "Diseño y Desarrollo de la Interfaz de inventario en JavaFX",
+      "Implementar CRUD para productos y clientes.",
+      "Leer y escribir datos en archivos JSON para persistencia de datos.",
+      "Implementar validaciones para garantizar la integridad de los datos.",
+      "Manejo de excepciones para evitar fallos inesperados.",
+      "Probar la persistencia y recuperación de datos en archivos JSON.",
+      "Versionamiento utilizando Git y manejo del repositorio con GitHub."
+    ],
+    "imageSrc": "history/javafx.png"
+  },
+  {
+    "role": "Profesor de Robótica",
+    "organisation": "Unidad Educativa Salesiana Cristobal Colón",
+    "startDate": "2019",
+    "endDate": "2021",
+    "experiences": [
+      "Dos años organizando y dirigiendo clases de Robótica en el AES – MJS en la Unidad Educativa Particular Bilingüe Salesiana Cristóbal Colón, presentando temas como terminología básica – intermedia de electrónica y robótica, guía hasta la programación funcional en lenguaje C dedicada a Arduino, implementación de sensores y automatización de actuadores en Arduino.",
+      "Explicación teórica sobre Arduino y el lenguaje C.",
+      "Realización de ejercicios básicos de programación en C con Arduino.",
+      "Conexión y prueba de sensores con Arduino.",
+      "Control de motores y actuadores en proyectos prácticos como manos robóticas, maquetas con temática tecnológica.",
+      "Gestión de proyectos de robótica.",
+      "Presentación y análisis de los proyectos realizados.",
+      "Evaluación y retroalimentación sobre los conocimientos adquiridos.",
+      "Entrega de un manual o guía para consulta futura."
+    ],
+    "imageSrc": "history/arduino.webp"
+  }
+]
