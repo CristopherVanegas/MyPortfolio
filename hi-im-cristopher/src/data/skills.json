@@ -40,11 +40,15 @@
     "imageSrc": "skills/figma.png"
   },
   {
+    "title": "Odoo",
+    "imageSrc": "skills/odoo.png"
+  },
+  {
     "title": "Python",
     "imageSrc": "skills/python.png"
   },
   {
-    "title": "Odoo",
-    "imageSrc": "skills/odoo.png"
+    "title": "n8n",
+    "imageSrc": "skills/n8n_logo.png"
   }
 ]

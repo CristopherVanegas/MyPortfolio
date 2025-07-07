@@ -1,12 +1,18 @@
 [
   {
-    "role": "Developer Junior",
+    "role": "Software Developer",
     "organisation": "Trescloud",
     "startDate": "Abril, 2025",
     "endDate": "Actualidad",
     "experiences": [
-      "Desarrollo de software y manejo del software Odoo ERP & CRM.",
-      "Manejo de la lengua inglesa para capacitaciones y cursos internos."
+      "Conocimiento de los módulos CRM, Inventario, Compras, HelpDesk y configuraciones de Odoo ERP & CRM, funcional y developer.",
+      "Creación de guías, documentación y levantamiento de requerimientos.",
+      "Entorno de desarrollo en Ubuntu con Python environments, JavaScript y PostgreSQL.",
+      "Versionamiento y trabajo en equipo gestionado en GitHub.",
+      "Dominio del Inglés para capacitaciones y cursos internos.",
+      "Dailys, Weeklys y reuniones internas para dar seguimiento a las tareas diarias, coordinar actividades de la semana y solventar dudas.",
+      "Manejo de Google Suite para las tareas del día a día y comunicación con el equipo.",
+      "DeskTime control de horas y monitoreo del trabajo remoto."
     ],
     "imageSrc": "history/trescloud.jpg"
   },
