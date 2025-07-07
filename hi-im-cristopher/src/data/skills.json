@@ -46,5 +46,9 @@
   {
     "title": "Odoo",
     "imageSrc": "skills/odoo.png"
+  },
+  {
+    "title": "n8n",
+    "imageSrc": "skills/n8n_logo.png"
   }
 ]
