@@ -1,13 +1,47 @@
 [
   {
+    "title": "n8n - Servidor MCP para consultas de registros en Supabase",
+    "imageSrc": "skills/n8n_logo.png",
+    "description": "Integración de Supabase, Claude Desktop y un servidor MCP con n8n para consultar registros o informes.",
+    "skills": [
+      "n8n",
+      "MCP",
+      "AI Agent",
+      "PostgreSQL",
+      "Supabase",
+      "Claude Desktop"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/CristopherVanegas/n8n-projects.git"
+  },
+  {
+    "title": "n8n - RAG con Pinecone y Google Drive",
+    "imageSrc": "projects/flujo_n8n_RAG.png",
+    "description": "Agente RAG,  responde de forma concisa consultas desde el n8n chat o WhatsApp. Integración con Pinecone y Google Drive API para tomar como argumento los documentos o información que contenida en la base vectorial.",
+    "skills": [
+      "n8n",
+      "Técnica RAG",
+      "OCR",
+      "Base vectorial",
+      "Pinecone",
+      "Google Drive API"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/CristopherVanegas/n8n-projects.git"
+  },
+  {
+    "title": "n8n - Trigger de mensajería en Telegram, lectura de imágenes y OCR",
+    "imageSrc": "projects/flujo_n8n.png",
+    "description": "Flujo mediante APIs de Telegram y OpenAI GPT-4, para procesar imágenes y extraer datos mediante OCR, de facturas o describir imágenes que el usuario envió al bot.",
+    "skills": ["n8n", "API", "Extracción de datos"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/CristopherVanegas/n8n-projects.git"
+  },
+  {
     "title": "API C#",
     "imageSrc": "projects/project.png",
     "description": "API de consultas a base de datos de ventas.",
-    "skills": [
-      ".NET Core C#",
-      "Microsoft SQL Server",
-      "Postman"
-    ],
+    "skills": [".NET Core C#", "Microsoft SQL Server", "Postman"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
@@ -15,11 +49,7 @@
     "title": "Interfaz con Angular",
     "imageSrc": "projects/project.png",
     "description": "Creación de la interfaz con Angular para consultar registros.",
-    "skills": [
-      "Angular",
-      "NodeJS",
-      "TypeScript"
-    ],
+    "skills": ["Angular", "NodeJS", "TypeScript"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
@@ -27,11 +57,7 @@
     "title": "Aplicación de Facturas",
     "imageSrc": "projects/project.png",
     "description": "Aplicación sencilla de registro de facturas en Android Studio con Kotlin.",
-    "skills": [
-      "React",
-      "Express",
-      "Node"
-    ],
+    "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
@@ -39,11 +65,7 @@
     "title": "Sistema de Ventas con JavaFX",
     "imageSrc": "projects/sistemadeventasjavafx.png",
     "description": "Sistema de Ventas en JavaFX, gestion de productos, persistencia con Json, interfaz con SceneBuilder.",
-    "skills": [
-      "JavaFX",
-      "SceneBuilder",
-      "Json"
-    ],
+    "skills": ["JavaFX", "SceneBuilder", "Json"],
     "demo": "https://github.com/CristopherVanegas/Sistema-de-Ventas-JavaFX",
     "source": "https://github.com/CristopherVanegas/Sistema-de-Ventas-JavaFX"
   },
@@ -51,10 +73,7 @@
     "title": "Página Web Fundación Más Que Vencedores",
     "imageSrc": "projects/fundacionmqvencedores.png",
     "description": "Página web para una fundación hecha en Wordpress y gestionado por Hostinger.",
-    "skills": [
-      "Wordpress",
-      "Hostinger"
-    ],
+    "skills": ["Wordpress", "Hostinger"],
     "demo": "https://fundacionmvencedores.org",
     "source": "https://fundacionmvencedores.org"
   },
@@ -62,10 +81,7 @@
     "title": "Tic-Tac Toe",
     "imageSrc": "projects/project.png",
     "description": "Tic-Tac Toe game o juego del 3 en Raya programado en Pygame.",
-    "skills": [
-      "Python",
-      "Pygame"
-    ],
+    "skills": ["Python", "Pygame"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
@@ -73,12 +89,7 @@
     "title": "Valery Truck v1.0",
     "imageSrc": "projects/valerytruck.jpeg",
     "description": "Proyecto de robótica, utiliza un Arduino programado en C y módulos bluetooth para comunicarse con un celular y controlarlo remotamente. Hay dos versiones, uno de carreras y uno para simular un carro de construcción.",
-    "skills": [
-      "Arduino",
-      "C/C++",
-      "Electrónica",
-      "Diseño"
-    ],
+    "skills": ["Arduino", "C/C++", "Electrónica", "Diseño"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }
