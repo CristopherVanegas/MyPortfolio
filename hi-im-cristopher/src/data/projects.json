@@ -38,6 +38,14 @@
     "source": "https://github.com/CristopherVanegas/n8n-projects.git"
   },
   {
+    "title": "Simulador de Coste de Producción",
+    "imageSrc": "skills/appsheets.png",
+    "description": "Toma de decisiones para coste de producción como herramienta didáctica en clases de finanzas en la UTEG.",
+    "skills": ["AppSheets", "Google Sheets", "Formulas"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/CristopherVanegas/Simulador-de-Coste-de-Producci-n"
+  },
+  {
     "title": "API C#",
     "imageSrc": "projects/project.png",
     "description": "API de consultas a base de datos de ventas.",

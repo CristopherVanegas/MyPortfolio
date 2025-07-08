@@ -50,5 +50,9 @@
   {
     "title": "n8n",
     "imageSrc": "skills/n8n_logo.png"
+  },
+  {
+    "title": "AppSheets",
+    "imageSrc": "skills/appsheets.png"
   }
 ]

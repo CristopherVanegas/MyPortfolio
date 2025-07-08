@@ -13,12 +13,27 @@ export const Hero = () => {
             " > Desarrollador FullStack con experiencia en sistemas ERP & CRM, apasionado por la IA y la programación de sistemas embebidos."
           }
         </p>
-        <a
-          href="mailto:cristopher.vanegas.21@gmail.com"
-          className={styles.contactBtn}
-        >
-          Contáctame
-        </a>
+
+        <div className={styles.socialLinks}>
+          <a
+            href="mailto:cristopher.vanegas.21@gmail.com"
+            className={styles.ImgButton}
+          >
+            <img src={getImageUrl("skills/gmail.png")} alt="" />
+          </a>
+          <a
+            href="https://github.com/CristopherVanegas"
+            className={styles.ImgButton}
+          >
+            <img src={getImageUrl("skills/github.png")} alt="" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/cristopher-vanegas-santi-464a2b202"
+            className={styles.ImgButton}
+          >
+            <img src={getImageUrl("skills/linkedin.png")} alt="" />
+          </a>
+        </div>
       </div>
       <img
         src={getImageUrl("hero/me_hero.jpg")}
