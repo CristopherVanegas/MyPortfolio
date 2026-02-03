@@ -1,9 +1,25 @@
 [
+    {
+    "role": "Ingeniero en Sistemas Inteligentes",
+    "organisation": "AR Management Partners S.A.",
+    "startDate": "Noviembre, 2025",
+    "endDate": "Actualidad",
+    "experiences": [
+      "Desarrollo de scripts utilizando Selenium y PyAutoGUI para automatizar procesos web de la empresa.",
+      "Desarrollo de aplicaciones de escritorio para la automatización de reportes.",
+      "Administración, migración y reportería de bases de datos Excel y Microsoft SQL Server.",
+      "Comunicación técnica en inglés para la coordinación de tareas con los gerentes.",
+      "Comunicación efectiva para el levantamiento de requerimientos de automatizaciones y futuros desarrollos que aumenten la productividad en los departamentos asignados.",
+      "Presentación y documentación de cada proyecto.",
+      "Asistencia en el área de soporte de TI."
+    ],
+    "imageSrc": "history/armpsa.avif"
+  },
   {
     "role": "Software Developer",
     "organisation": "Trescloud",
     "startDate": "Abril, 2025",
-    "endDate": "Actualidad",
+    "endDate": "Octubre, 2025",
     "experiences": [
       "Conocimiento de los módulos CRM, Inventario, Compras, HelpDesk y configuraciones de Odoo ERP & CRM, funcional y developer.",
       "Creación de guías, documentación y levantamiento de requerimientos.",

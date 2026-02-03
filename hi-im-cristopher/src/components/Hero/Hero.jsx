@@ -10,7 +10,7 @@ export const Hero = () => {
         <h1 className={styles.title}>Hola, soy Cristopher</h1>
         <p className={styles.description}>
           {
-            " > Desarrollador FullStack con experiencia en sistemas ERP & CRM, apasionado por la IA y la programación de sistemas embebidos."
+            " > Desarrollador FullStack con experiencia en desarrollo e integración de sistemas ERP & CRM, apasionado por la IA y la programación de sistemas embebidos."
           }
         </p>
 
