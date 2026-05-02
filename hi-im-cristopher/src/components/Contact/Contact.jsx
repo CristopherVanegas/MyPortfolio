@@ -19,7 +19,7 @@ export const Contact = () => {
                 </li>
                 <li className={styles.link}>
                     <img src={getImageUrl("contact/linkedinIcon.png")} alt="my linkedin" />
-                    <a href="https://www.linkedin.com/in/cristopher-vanegas-464a2b202/">Cristopher Vanegas</a>
+                    <a href="https://www.linkedin.com/in/cristopher-vanegas-santi-464a2b202/">Cristopher Vanegas</a>
                 </li>
                 <li className={styles.link}>
                     <img src={getImageUrl("contact/githubIcon.png")} alt="my github" />
