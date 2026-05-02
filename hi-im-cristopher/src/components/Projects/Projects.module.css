@@ -17,11 +17,46 @@
 
 .projects {
     margin-top: 37px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: start;
-    justify-content: center;
-    gap: 15px;
     width: 100%;
+    padding: 10px 45px 55px;
+}
+
+.projectSlide {
+    height: auto;
+    display: flex;
+}
+
+.projects :global(.swiper-wrapper) {
+    align-items: stretch;
+}
+
+.projects :global(.swiper-button-next),
+.projects :global(.swiper-button-prev) {
+    color: white;
+}
+
+.projects :global(.swiper-button-next)::after,
+.projects :global(.swiper-button-prev)::after {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.projects :global(.swiper-pagination-bullet) {
+    background: white;
+    opacity: 0.45;
+}
+
+.projects :global(.swiper-pagination-bullet-active) {
+    opacity: 1;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .projects {
+        padding: 10px 32px 50px;
+    }
 }

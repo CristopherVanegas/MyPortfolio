@@ -1,13 +1,18 @@
 @import '../../vars.css';
 
 .navbar {
-    position: relative;
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 61px;
-    z-index: 2;
-    margin: 0 10%;
+    padding: 24px 10%;
+    z-index: 999;
+    background: rgba(4, 21, 45, 0.72);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    overflow: visible;
 }
 
 .title {
@@ -26,7 +31,6 @@
     display: flex;
     gap: 47px;
     list-style: none;
-
 }
 
 .menuItems a {
@@ -41,20 +45,22 @@
 
 @media screen and (max-width: 1150px) {
     .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px 8%;
     }
 
     .menu {
         position: absolute;
-        right: 0;
-        margin-right: 10%;
+        top: 20px;
+        right: 8%;
+        margin-right: 0;
         flex-direction: column;
         align-items: flex-end;
         gap: 11px;
-        z-index: 3;
+        z-index: 1000;
     }
-    
+
     .menuBtn {
         display: block;
         cursor: pointer;
@@ -65,20 +71,27 @@
         flex-direction: column;
         align-items: center;
         gap: 13px;
-        border-radius: 10px;  
-        background: rgb(25, 55, 109); 
+        border-radius: 10px;
         background: linear-gradient(
-            0deg, 
-            rgb(25, 55, 109, 0.2) 0%, 
+            0deg,
+            rgba(25, 55, 109, 0.95) 0%,
             rgba(25, 55, 109, 1) 100%
         );
-
         padding: 24px 33px;
-        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+        box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
     }
 
     .menuOpen {
         display: flex;
-        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .menuItems a {
+        font-size: 22px;
     }
 }
