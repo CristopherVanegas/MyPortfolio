@@ -1,17 +1,47 @@
 [
     {
+    "role": "Semi-Senior FullStack Dev",
+    "organisation": "Viamatica S.A. - On Site",
+    "startDate": "Marzo, 2026",
+    "endDate": "Actualidad",
+    "experiences": [
+      "Desarrollo y mantenimiento de aplicaciones web bajo arquitectura Full Stack utilizando .NET Core y Angular.",
+      "Participación activa en el diseño, implementación y mejora de módulos del proyecto DIPASO.",
+      "Desarrollo de una aplicación web progresiva (PWA) y responsiva para promotoría Dipaso.",
+      "Mantenimiento y optimización del ERP corporativo DOBRA desarrollado en Microsoft Visual FoxPro.",
+      "Análisis y mejora de funcionalidades existentes para garantizar estabilidad, rendimiento y continuidad operativa.",
+      "Colaboración con el equipo técnico en la evolución y modernización de plataformas empresariales."
+    ],
+    "imageSrc": "history/viamatica_logo.jpg"
+  },
+  {
+    "role": "Webmaster",
+    "organisation": "BPO Andina S.A. - Remote",
+    "startDate": "Febrero, 2026",
+    "endDate": "Actualidad",
+    "experiences": [
+      "Desarrollo completo y mantenimiento de sitios web utilizando WordPress y Elementor, incluyendo diseño, estructura y despliegue.",
+      "Migración de sitios web entre proveedores de hosting (HostGator a Hostinger), abarcando archivos, bases de datos, configuración de DNS y validaciones.",
+      "Creación de templates HTML y desarrollo de componentes personalizados.",
+      "Optimización continua de sitios web, mejorando rendimiento, experiencia de usuario (UX/UI) y resolución de errores técnicos y visuales.",
+      "Implementación de integraciones con formularios, CRM, Google Analytics y automatizaciones.",
+      "Soporte técnico y coordinación con proveedores para la resolución de problemas de seguridad, rendimiento y despliegue."
+    ],
+    "imageSrc": "history/bpoandinaec_logo.jpg"
+  },
+  {
     "role": "Ingeniero en Sistemas Inteligentes",
     "organisation": "AR Management Partners S.A.",
     "startDate": "Noviembre, 2025",
-    "endDate": "Actualidad",
+    "endDate": "Marzo, 2026",
     "experiences": [
-      "Desarrollo de scripts utilizando Selenium y PyAutoGUI para automatizar procesos web de la empresa.",
-      "Desarrollo de aplicaciones de escritorio para la automatización de reportes.",
-      "Administración, migración y reportería de bases de datos Excel y Microsoft SQL Server.",
-      "Comunicación técnica en inglés para la coordinación de tareas con los gerentes.",
-      "Comunicación efectiva para el levantamiento de requerimientos de automatizaciones y futuros desarrollos que aumenten la productividad en los departamentos asignados.",
-      "Presentación y documentación de cada proyecto.",
-      "Asistencia en el área de soporte de TI."
+      "Desarrollo de scripts utilizando Selenium y PyAutoGUI para la automatización de procesos web empresariales.",
+      "Desarrollo de aplicaciones de escritorio orientadas a la automatización de reportes.",
+      "Administración, migración y generación de reportes en bases de datos Excel y Microsoft SQL Server.",
+      "Comunicación técnica en inglés para la coordinación de tareas con gerencia.",
+      "Levantamiento de requerimientos para automatizaciones y desarrollos enfocados en mejorar la productividad de los departamentos asignados.",
+      "Presentación y documentación de proyectos desarrollados.",
+      "Soporte técnico en el área de TI."
     ],
     "imageSrc": "history/armpsa.avif"
   },
