@@ -68,16 +68,31 @@
   border-radius: 50%;
   font-size: 30px;
   font-weight: 600;
-  /* padding: 17px 26px; */
-  padding: 0px;
-  margin: 0px;
-  /* box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25); */
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
 }
+
+.ImgButton:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.35);
+}
+
+.ImgButton:active {
+  transform: translateY(2px) scale(0.94);
+  box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+
 .ImgButton > img {
   width: 100%;
   height: 100%;
   border-radius: 100%;
-  padding: 0px;
+  padding: 0;
+  object-fit: cover;
 }
 
 .heroImg {
