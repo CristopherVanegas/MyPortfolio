@@ -1,16 +1,16 @@
 [
-    {
+  {
     "role": "Semi-Senior FullStack Dev",
     "organisation": "Viamatica S.A. - On Site",
     "startDate": "Marzo, 2026",
     "endDate": "Actualidad",
     "experiences": [
-      "Desarrollo y mantenimiento de aplicaciones web bajo arquitectura Full Stack utilizando .NET Core y Angular.",
-      "Participación activa en el diseño, implementación y mejora de módulos del proyecto DIPASO.",
-      "Desarrollo de una aplicación web progresiva (PWA) y responsiva para promotoría Dipaso.",
-      "Mantenimiento y optimización del ERP corporativo DOBRA desarrollado en Microsoft Visual FoxPro.",
-      "Análisis y mejora de funcionalidades existentes para garantizar estabilidad, rendimiento y continuidad operativa.",
-      "Colaboración con el equipo técnico en la evolución y modernización de plataformas empresariales."
+      "Diseño, implementación y mejora de módulos empresariales dentro del proyecto DIPASO.",
+      "Desarrollo de una aplicación web progresiva (PWA) responsiva en Angular para procesos de promotoría empresarial.",
+      "Desarrollo y mantenimiento de módulos internos utilizando Laravel PHP y Blade.",
+      "Mantenimiento y optimización del ERP corporativo DOBRA en Microsoft Visual FoxPro.",
+      "Análisis y mejora de funcionalidades para garantizar estabilidad y rendimiento operativo.",
+      "Colaboración en procesos de modernización e integración de sistemas empresariales."
     ],
     "imageSrc": "history/viamatica_logo.jpg"
   },
