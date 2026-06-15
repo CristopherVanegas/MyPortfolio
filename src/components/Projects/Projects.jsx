@@ -1,21 +1,17 @@
-import React from 'react'
+import styles from './Projects.module.css'
+import { ProjectCard } from './ProjectCard/ProjectCard'
 
-import styles from './Projects.module.css';
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Pagination } from 'swiper/modules'
 
-import projects from '../../data/projects.json';
-import { ProjectCard } from './ProjectCard/ProjectCard';
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
-
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
-export const Projects = () => {
+export const Projects = ({ projectsContent }) => {
   return (
-    <section className={styles.container} id='projects'>
-      <h2 className={styles.title}>Proyectos</h2>
+    <section className={styles.container} id="projects">
+      <h2 className={styles.title}>{projectsContent.title}</h2>
 
       <Swiper
         className={styles.projects}
@@ -36,13 +32,11 @@ export const Projects = () => {
           },
         }}
       >
-        {projects.map((project, id) => {
-          return (
-            <SwiperSlide key={id} className={styles.projectSlide}>
-              <ProjectCard project={project} />
-            </SwiperSlide>
-          );
-        })}
+        {projectsContent.items.map((project, id) => (
+          <SwiperSlide key={id} className={styles.projectSlide}>
+            <ProjectCard project={project} labels={projectsContent.labels} />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </section>
   )
