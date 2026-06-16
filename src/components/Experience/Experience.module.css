@@ -128,9 +128,13 @@
     padding-bottom: 18px;
 }
 
+.jobsHeader {
+    padding-bottom: 10px;
+}
+
 .history {
     width: 100%;
-    padding: 22px 64px 8px;
+    padding: 30px 68px 10px;
     box-sizing: border-box;
 }
 
@@ -172,12 +176,12 @@
 
 .historyCard {
     width: 100%;
-    min-height: 252px;
+    min-height: 228px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 20px;
-    padding: 22px 20px;
+    gap: 16px;
+    padding: 20px 16px;
     border-radius: 24px;
     border: 1px solid rgba(255, 255, 255, 0.08);
     background:
@@ -211,12 +215,13 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    gap: 16px;
+    gap: 14px;
+    padding-inline: 4px;
 }
 
 .historyLogo {
-    width: 64px;
-    height: 64px;
+    width: 58px;
+    height: 58px;
     flex-shrink: 0;
     object-fit: cover;
     border-radius: 18px;
@@ -231,17 +236,17 @@
 
 .historyHeading h3 {
     margin: 0;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 1.2;
 }
 
 .organisation,
 .period {
-    margin: 6px 0 0;
+    margin: 5px 0 0;
     color: rgba(255, 255, 255, 0.8);
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 13px;
+    line-height: 1.45;
 }
 
 .historyList {
@@ -395,6 +400,40 @@
 
     .historyList {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .jobsHeader {
+        padding-bottom: 14px;
+    }
+
+    .history {
+        padding: 34px 74px 12px;
+    }
+
+    .historyCard {
+        min-height: 218px;
+        padding: 18px 14px;
+        border-radius: 22px;
+    }
+
+    .historyHeaderCentered {
+        gap: 12px;
+    }
+
+    .historyLogo {
+        width: 54px;
+        height: 54px;
+    }
+
+    .historyHeading h3 {
+        font-size: 17px;
+    }
+
+    .organisation,
+    .period {
+        font-size: 12px;
     }
 }
 

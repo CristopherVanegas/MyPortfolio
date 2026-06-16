@@ -156,7 +156,7 @@ export const Experience = ({ experience }) => {
         </article>
 
         <article className={`${styles.panel} ${styles.jobsPanel}`}>
-          <div className={styles.panelHeader}>
+          <div className={`${styles.panelHeader} ${styles.jobsHeader}`}>
             <p className={styles.eyebrow}>Career</p>
             <h3 className={styles.panelTitle}>{experience.jobsTitle}</h3>
           </div>
