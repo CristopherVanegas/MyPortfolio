@@ -42,6 +42,17 @@ export const siteContent = {
     },
     experience: {
       title: 'Experiencia',
+      technologiesTitle: 'Tecnologias que manejo',
+      technologiesDescription:
+        'Herramientas y stacks que uso para construir, integrar y mantener soluciones.',
+      technologyGroups: {
+        frontend: 'Frontend',
+        backend: 'Backend y datos',
+        automation: 'Automatizacion y negocio',
+        tools: 'Herramientas y diseno',
+      },
+      jobsTitle: 'Trabajos',
+      modalClose: 'Cerrar',
       history: [
         {
           role: 'Desarrollador FullStack Semi-Senior',
@@ -334,6 +345,17 @@ export const siteContent = {
     },
     experience: {
       title: 'Experience',
+      technologiesTitle: 'Technologies I use',
+      technologiesDescription:
+        'Tools and stacks I use to build, integrate, and maintain production-ready solutions.',
+      technologyGroups: {
+        frontend: 'Frontend',
+        backend: 'Backend and data',
+        automation: 'Automation and business',
+        tools: 'Tools and design',
+      },
+      jobsTitle: 'Work',
+      modalClose: 'Close',
       history: [
         {
           role: 'Semi-Senior FullStack Developer',
