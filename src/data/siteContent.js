@@ -198,6 +198,38 @@ export const siteContent = {
       },
       items: [
         {
+          title: 'GestorDeUsuarios',
+          imageSrc: 'projects/gestordeusuarios-placeholder.png',
+          description:
+            'Sistema full stack para administrar usuarios, roles, opciones de rol y sesiones. Incluye una API REST en ASP.NET Core 8 con Entity Framework Core, JWT y SQL Server, junto a un frontend en Angular 20 para operaciones CRUD y control de acceso.',
+          skills: [
+            'ASP.NET Core 8',
+            'Angular 20',
+            'SQL Server',
+            'Entity Framework Core',
+            'JWT',
+            'REST API',
+          ],
+          demo: 'https://github.com/CristopherVanegas/GestorDeUsuarios',
+          source: 'https://github.com/CristopherVanegas/GestorDeUsuarios',
+        },
+        {
+          title: 'InternetCompany',
+          imageSrc: 'projects/internetcompany-placeholder.png',
+          description:
+            'Aplicación full stack que simula la lógica operativa de una empresa de internet, con autenticación JWT, aprobación de usuarios por rol y administración desde Angular 20. El backend está organizado por capas sobre SQL Server e incluye validaciones, hash de contraseñas y manejo centralizado de errores.',
+          skills: [
+            'ASP.NET Core',
+            'Angular 20',
+            'SQL Server',
+            'JWT',
+            'Arquitectura por capas',
+            'Autorización por roles',
+          ],
+          demo: 'https://github.com/CristopherVanegas/InternetCompany',
+          source: 'https://github.com/CristopherVanegas/InternetCompany',
+        },
+        {
           title: 'n8n - Servidor MCP para consultas de registros en Supabase',
           imageSrc: 'skills/n8n_logo.png',
           description:
@@ -234,26 +266,11 @@ export const siteContent = {
           source: 'https://github.com/CristopherVanegas/Simulador-de-Coste-de-Producci-n',
         },
         {
-          title: 'API C#',
-          imageSrc: 'projects/project.png',
-          description: 'API de consultas a base de datos de ventas.',
-          skills: ['.NET Core C#', 'Microsoft SQL Server', 'Postman'],
-          demo: 'https://www.example.com',
-          source: 'https://www.github.com',
-        },
-        {
-          title: 'Interfaz con Angular',
-          imageSrc: 'projects/project.png',
-          description: 'Creación de la interfaz con Angular para consultar registros.',
-          skills: ['Angular', 'NodeJS', 'TypeScript'],
-          demo: 'https://www.example.com',
-          source: 'https://www.github.com',
-        },
-        {
           title: 'Aplicación de Facturas',
           imageSrc: 'projects/project.png',
-          description: 'Aplicación sencilla de registro de facturas en Android Studio con Kotlin.',
-          skills: ['React', 'Express', 'Node'],
+          description:
+            'Aplicación móvil desarrollada en Kotlin con Android Studio para registrar facturas, mantener un catálogo de productos en inventario y guardar el flujo de compra tipo carrito en base de datos.',
+          skills: ['Kotlin', 'Android Studio', 'SQLite', 'Gradle'],
           demo: 'https://www.example.com',
           source: 'https://www.github.com',
         },
@@ -501,6 +518,38 @@ export const siteContent = {
       },
       items: [
         {
+          title: 'GestorDeUsuarios',
+          imageSrc: 'projects/gestordeusuarios-placeholder.png',
+          description:
+            'Full stack system for managing users, roles, role options, and sessions. It combines an ASP.NET Core 8 REST API with Entity Framework Core, JWT, and SQL Server, plus an Angular 20 frontend for CRUD workflows and access control.',
+          skills: [
+            'ASP.NET Core 8',
+            'Angular 20',
+            'SQL Server',
+            'Entity Framework Core',
+            'JWT',
+            'REST API',
+          ],
+          demo: 'https://github.com/CristopherVanegas/GestorDeUsuarios',
+          source: 'https://github.com/CristopherVanegas/GestorDeUsuarios',
+        },
+        {
+          title: 'InternetCompany',
+          imageSrc: 'projects/internetcompany-placeholder.png',
+          description:
+            'Full stack application that simulates the operational logic of an internet company, with JWT authentication, role-based user approval, and Angular 20 administration flows. The backend is organized in layers on top of SQL Server and includes validations, password hashing, and centralized exception handling.',
+          skills: [
+            'ASP.NET Core',
+            'Angular 20',
+            'SQL Server',
+            'JWT',
+            'Layered Architecture',
+            'Role-based Access',
+          ],
+          demo: 'https://github.com/CristopherVanegas/InternetCompany',
+          source: 'https://github.com/CristopherVanegas/InternetCompany',
+        },
+        {
           title: 'n8n - MCP server for Supabase record queries',
           imageSrc: 'skills/n8n_logo.png',
           description:
@@ -537,26 +586,11 @@ export const siteContent = {
           source: 'https://github.com/CristopherVanegas/Simulador-de-Coste-de-Producci-n',
         },
         {
-          title: 'C# API',
-          imageSrc: 'projects/project.png',
-          description: 'API for sales database queries.',
-          skills: ['.NET Core C#', 'Microsoft SQL Server', 'Postman'],
-          demo: 'https://www.example.com',
-          source: 'https://www.github.com',
-        },
-        {
-          title: 'Angular Interface',
-          imageSrc: 'projects/project.png',
-          description: 'Creation of the interface with Angular to query records.',
-          skills: ['Angular', 'NodeJS', 'TypeScript'],
-          demo: 'https://www.example.com',
-          source: 'https://www.github.com',
-        },
-        {
           title: 'Invoice App',
           imageSrc: 'projects/project.png',
-          description: 'Simple invoice registration app built in Android Studio with Kotlin.',
-          skills: ['React', 'Express', 'Node'],
+          description:
+            'Mobile app built with Kotlin in Android Studio to register invoices, manage a product catalog for inventory, and persist cart-style purchase flows in a local database.',
+          skills: ['Kotlin', 'Android Studio', 'SQLite', 'Gradle'],
           demo: 'https://www.example.com',
           source: 'https://www.github.com',
         },
