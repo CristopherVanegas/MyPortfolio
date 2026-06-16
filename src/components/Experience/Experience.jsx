@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useId, useRef, useState } from 'react'
 import styles from './Experience.module.css'
 import skills from '../../data/skills.json'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -9,7 +9,9 @@ import 'swiper/css/navigation'
 
 import { getImageUrl } from '../../utils'
 
-const MOBILE_BREAKPOINT = '(max-width: 830px)'
+const EXPERIENCE_MOBILE_MAX_WIDTH = 830
+const MOBILE_BREAKPOINT = `(max-width: ${EXPERIENCE_MOBILE_MAX_WIDTH}px)`
+const DESKTOP_HISTORY_BREAKPOINT = EXPERIENCE_MOBILE_MAX_WIDTH + 1
 const SKILL_GROUPS = [
   {
     key: 'frontend',
@@ -31,6 +33,11 @@ const SKILL_GROUPS = [
 
 export const Experience = ({ experience }) => {
   const [selectedHistoryItem, setSelectedHistoryItem] = useState(null)
+  const triggerRef = useRef(null)
+  const closeButtonRef = useRef(null)
+  const modalRef = useRef(null)
+  const dialogId = useId()
+  const dialogTitleId = `${dialogId}-title`
   const [isMobile, setIsMobile] = useState(() => {
     if (typeof window === 'undefined') {
       return false
@@ -71,21 +78,59 @@ export const Experience = ({ experience }) => {
       return undefined
     }
 
+    const focusableSelector =
+      'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
     const handleKeyDown = (event) => {
       if (event.key === 'Escape') {
         setSelectedHistoryItem(null)
+        return
+      }
+
+      if (event.key !== 'Tab' || !modalRef.current) {
+        return
+      }
+
+      const focusableElements = Array.from(
+        modalRef.current.querySelectorAll(focusableSelector),
+      )
+
+      if (focusableElements.length === 0) {
+        event.preventDefault()
+        return
+      }
+
+      const firstFocusable = focusableElements[0]
+      const lastFocusable = focusableElements[focusableElements.length - 1]
+
+      if (event.shiftKey && document.activeElement === firstFocusable) {
+        event.preventDefault()
+        lastFocusable.focus()
+      } else if (!event.shiftKey && document.activeElement === lastFocusable) {
+        event.preventDefault()
+        firstFocusable.focus()
       }
     }
 
     const previousOverflow = document.body.style.overflow
     document.body.style.overflow = 'hidden'
+    window.requestAnimationFrame(() => {
+      closeButtonRef.current?.focus()
+    })
     window.addEventListener('keydown', handleKeyDown)
 
     return () => {
       document.body.style.overflow = previousOverflow
       window.removeEventListener('keydown', handleKeyDown)
+      if (triggerRef.current && document.contains(triggerRef.current)) {
+        triggerRef.current.focus()
+      }
     }
   }, [selectedHistoryItem])
+
+  const openModal = (historyItem, event) => {
+    triggerRef.current = event.currentTarget
+    setSelectedHistoryItem(historyItem)
+  }
 
   const closeModal = () => {
     setSelectedHistoryItem(null)
@@ -170,7 +215,7 @@ export const Experience = ({ experience }) => {
             spaceBetween={12}
             slidesPerView={1}
             breakpoints={{
-              831: {
+              [DESKTOP_HISTORY_BREAKPOINT]: {
                 spaceBetween: 24,
               },
             }}
@@ -181,8 +226,10 @@ export const Experience = ({ experience }) => {
                   <button
                     type="button"
                     className={`${styles.historyCard} ${styles.historyCardInteractive}`}
-                    onClick={() => setSelectedHistoryItem(historyItem)}
+                    onClick={(event) => openModal(historyItem, event)}
                     aria-haspopup="dialog"
+                    aria-controls={dialogId}
+                    aria-expanded={selectedHistoryItem === historyItem}
                     aria-label={`${historyItem.role} - ${historyItem.organisation}`}
                   >
                     {renderHistoryHeader(historyItem, true)}
@@ -202,13 +249,16 @@ export const Experience = ({ experience }) => {
       {isMobile && selectedHistoryItem ? (
         <div className={styles.modalOverlay} onClick={closeModal}>
           <div
+            id={dialogId}
+            ref={modalRef}
             className={styles.modalCard}
             role="dialog"
             aria-modal="true"
-            aria-labelledby="experience-modal-title"
+            aria-labelledby={dialogTitleId}
             onClick={(event) => event.stopPropagation()}
           >
             <button
+              ref={closeButtonRef}
               type="button"
               className={styles.modalClose}
               onClick={closeModal}
@@ -217,7 +267,7 @@ export const Experience = ({ experience }) => {
               x
             </button>
 
-            <div id="experience-modal-title">{renderHistoryHeader(selectedHistoryItem)}</div>
+            <div id={dialogTitleId}>{renderHistoryHeader(selectedHistoryItem)}</div>
             {renderHistoryDetails(selectedHistoryItem)}
           </div>
         </div>

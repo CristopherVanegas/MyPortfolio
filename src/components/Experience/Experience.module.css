@@ -315,6 +315,7 @@
     }
 }
 
+/* Keep this boundary aligned with EXPERIENCE_MOBILE_MAX_WIDTH in Experience.jsx. */
 @media screen and (min-width: 831px) {
     .container {
         margin-left: 10%;
