@@ -62,11 +62,32 @@
     line-height: 1.6;
 }
 
+.skillGroups {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 22px 20px 20px;
+}
+
+.skillGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.skillGroupTitle {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
 .skillsGrid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px;
-    padding: 22px 20px 20px;
 }
 
 .skillCard {
@@ -109,7 +130,7 @@
 
 .history {
     width: 100%;
-    padding: 22px 52px 8px;
+    padding: 22px 64px 8px;
     box-sizing: border-box;
 }
 
@@ -151,7 +172,7 @@
 
 .historyCard {
     width: 100%;
-    min-height: 236px;
+    min-height: 252px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -186,6 +207,13 @@
     gap: 14px;
 }
 
+.historyHeaderCentered {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+
 .historyLogo {
     width: 64px;
     height: 64px;
@@ -193,6 +221,12 @@
     object-fit: cover;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.08);
+}
+
+.historyHeadingCentered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .historyHeading h3 {
@@ -287,10 +321,18 @@
         font-size: 15px;
     }
 
+    .skillGroups {
+        gap: 24px;
+        padding: 24px 28px 28px;
+    }
+
+    .skillGroup {
+        gap: 16px;
+    }
+
     .skillsGrid {
         grid-template-columns: repeat(4, minmax(0, 1fr));
         gap: 16px;
-        padding: 24px 28px 28px;
     }
 
     .skillCard {
@@ -333,6 +375,17 @@
 
     .historyHeading h3 {
         font-size: 28px;
+    }
+
+    .historyHeaderCentered {
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: left;
+        gap: 14px;
+    }
+
+    .historyHeadingCentered {
+        align-items: flex-start;
     }
 
     .organisation,

@@ -10,6 +10,24 @@ import 'swiper/css/navigation'
 import { getImageUrl } from '../../utils'
 
 const MOBILE_BREAKPOINT = '(max-width: 830px)'
+const SKILL_GROUPS = [
+  {
+    key: 'frontend',
+    items: ['HTML', 'CSS', 'TypeScript', 'React', 'Angular'],
+  },
+  {
+    key: 'backend',
+    items: ['Node', '.NET Core', 'SQL Server', 'Python', 'Laravel PHP'],
+  },
+  {
+    key: 'automation',
+    items: ['n8n', 'AppSheets', 'Odoo'],
+  },
+  {
+    key: 'tools',
+    items: ['Git', 'Figma'],
+  },
+]
 
 export const Experience = ({ experience }) => {
   const [selectedHistoryItem, setSelectedHistoryItem] = useState(null)
@@ -73,15 +91,21 @@ export const Experience = ({ experience }) => {
     setSelectedHistoryItem(null)
   }
 
-  const renderHistoryHeader = (historyItem) => (
-    <div className={styles.historyHeader}>
+  const groupedSkills = SKILL_GROUPS.map((group) => ({
+    key: group.key,
+    title: experience.technologyGroups[group.key],
+    skills: skills.filter((skill) => group.items.includes(skill.title)),
+  })).filter((group) => group.skills.length > 0)
+
+  const renderHistoryHeader = (historyItem, centered = false) => (
+    <div className={`${styles.historyHeader} ${centered ? styles.historyHeaderCentered : ''}`}>
       <img
         className={styles.historyLogo}
         src={getImageUrl(historyItem.imageSrc)}
         alt={`${historyItem.organisation} logo`}
       />
 
-      <div className={styles.historyHeading}>
+      <div className={`${styles.historyHeading} ${centered ? styles.historyHeadingCentered : ''}`}>
         <h3>{historyItem.role}</h3>
         <p className={styles.organisation}>{historyItem.organisation}</p>
         <p className={styles.period}>
@@ -111,14 +135,22 @@ export const Experience = ({ experience }) => {
             <p className={styles.panelDescription}>{experience.technologiesDescription}</p>
           </div>
 
-          <div className={styles.skillsGrid}>
-            {skills.map((skill, id) => (
-              <div key={id} className={styles.skillCard}>
-                <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+          <div className={styles.skillGroups}>
+            {groupedSkills.map((group) => (
+              <section key={group.key} className={styles.skillGroup}>
+                <h4 className={styles.skillGroupTitle}>{group.title}</h4>
+
+                <div className={styles.skillsGrid}>
+                  {group.skills.map((skill, id) => (
+                    <div key={`${group.key}-${id}`} className={styles.skillCard}>
+                      <div className={styles.skillImageContainer}>
+                        <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                      </div>
+                      <p>{skill.title}</p>
+                    </div>
+                  ))}
                 </div>
-                <p>{skill.title}</p>
-              </div>
+              </section>
             ))}
           </div>
         </article>
@@ -153,7 +185,7 @@ export const Experience = ({ experience }) => {
                     aria-haspopup="dialog"
                     aria-label={`${historyItem.role} - ${historyItem.organisation}`}
                   >
-                    {renderHistoryHeader(historyItem)}
+                    {renderHistoryHeader(historyItem, true)}
                   </button>
                 ) : (
                   <div className={styles.historyCard}>
