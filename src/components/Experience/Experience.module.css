@@ -133,9 +133,11 @@
 }
 
 .history {
-    width: 100%;
-    padding: 30px 68px 10px;
+    width: calc(100% - 120px);
+    margin: 0 auto;
+    padding: 30px 0 10px;
     box-sizing: border-box;
+    overflow: visible;
 }
 
 .history :global(.swiper-wrapper) {
@@ -145,6 +147,7 @@
 .history :global(.swiper-slide) {
     height: auto;
     display: flex;
+    justify-content: center;
 }
 
 .history :global(.swiper-button-next),
@@ -161,11 +164,11 @@
 }
 
 .history :global(.swiper-button-prev) {
-    left: 10px;
+    left: -48px;
 }
 
 .history :global(.swiper-button-next) {
-    right: 10px;
+    right: -48px;
 }
 
 .history :global(.swiper-button-next)::after,
@@ -360,6 +363,8 @@
     }
 
     .history {
+        width: 100%;
+        margin: 0;
         padding: 24px 62px 0;
     }
 
@@ -413,7 +418,16 @@
     }
 
     .history {
-        padding: 34px 74px 12px;
+        width: calc(100% - 104px);
+        padding: 34px 0 12px;
+    }
+
+    .history :global(.swiper-button-prev) {
+        left: -42px;
+    }
+
+    .history :global(.swiper-button-next) {
+        right: -42px;
     }
 
     .historyCard {
