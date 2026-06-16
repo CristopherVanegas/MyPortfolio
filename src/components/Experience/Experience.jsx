@@ -167,7 +167,7 @@ export const Experience = ({ experience }) => {
             navigation={true}
             preventClicks={true}
             preventClicksPropagation={true}
-            spaceBetween={18}
+            spaceBetween={12}
             slidesPerView={1}
             breakpoints={{
               831: {
