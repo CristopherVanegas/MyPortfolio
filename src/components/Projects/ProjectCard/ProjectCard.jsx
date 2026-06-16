@@ -47,34 +47,45 @@ export const ProjectCard = ({
           document.body
         )}
 
-      <img
-        src={getImageUrl(imageSrc)}
-        alt={`${labels.imageAlt} ${title}`}
-        className={styles.image}
+      <button
+        type="button"
+        className={styles.imageButton}
         onClick={() => setIsImageOpen(true)}
-      />
+        aria-label={`${labels.imageAlt} ${title}`}
+      >
+        <div className={styles.imageFrame}>
+          <img
+            src={getImageUrl(imageSrc)}
+            alt={`${labels.imageAlt} ${title}`}
+            className={styles.image}
+          />
+        </div>
+      </button>
 
-      <h3 className={styles.title}>{title}</h3>
+      <div className={styles.content}>
+        <h3 className={styles.title}>{title}</h3>
 
-      <p className={styles.description}>{description}</p>
+        <p className={styles.description}>{description}</p>
 
-      <ul className={styles.skills}>
-        {skills.map((skill, id) => (
-          <li key={id} className={styles.skill}>
-            {skill}
-          </li>
-        ))}
-      </ul>
+        <ul className={styles.skills}>
+          {skills.map((skill, id) => (
+            <li key={id} className={styles.skill}>
+              {skill}
+            </li>
+          ))}
+        </ul>
+      </div>
 
       <div className={styles.links}>
         <button
+          type="button"
           className={`${styles.link} ${styles.moreButton}`}
           onClick={() => setIsMoreOpen(true)}
         >
           {labels.more}
         </button>
 
-        <a href={source} className={styles.link}>
+        <a href={source} className={`${styles.link} ${styles.sourceLink}`} target="_blank" rel="noreferrer">
           {labels.source}
         </a>
       </div>
