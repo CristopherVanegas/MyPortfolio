@@ -194,6 +194,8 @@
 
 .historyCardInteractive {
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
     transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
 
@@ -213,10 +215,12 @@
 
 .historyHeaderCentered {
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     text-align: center;
     gap: 14px;
     padding-inline: 4px;
+    width: 100%;
 }
 
 .historyLogo {
